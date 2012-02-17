@@ -4,13 +4,13 @@
 
     <head>
         <script type="text/javascript">
-            window.parent.location = "{{ url|safe }}";
+            window.parent.location = "${ url|n }";
         </script>
     </head>
     
     <body>
         <noscript>
-            You must <a href="{{ url|safe }}">authorize the application</a> in order to continue.
+            You must <a href="${ url|n }">authorize the application</a> in order to continue.
         </noscript>
     </body>
 
